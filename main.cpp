@@ -30,6 +30,7 @@ int main(){
     else {
         pontuacao1 = 60;
         }
+//score compras
     cout << endl << "Score de volume de compras = " << pontuacao1 << " pontos" << endl;
 
     if (atrasos > 1 || compras == 0){
@@ -42,5 +43,6 @@ int main(){
         pontuacao2 = 30;
     }
 
+    cout << "Score de idadimplecia = " << pontuacao2 << " pontos" << endl;
     return 0;
 }
